@@ -1,0 +1,122 @@
+body {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: blanchedalmond;
+}
+#pizza {
+    width: 700px;
+    height:500px;
+} 
+.div-pizza {
+    width: 700px;
+    margin: auto;
+}
+#title {
+    font-size: 50px;
+    color: rgb(142, 3, 77);
+    margin-top: 95px;
+}
+h1 {
+    color: rgb(2, 2, 122);
+}
+#home:hover {
+    color: red;
+}
+
+.ul-pizza, .ol-pizza {
+    text-align: left; 
+    display: inline-block; 
+    font-size: 120%; 
+}
+  
+p {
+    font-size: 120%;
+  }
+  .pizza:hover {
+    color: red;
+  }
+
+
+
+
+/* NAV BAR */
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500');
+
+* {
+  margin-left: 0;
+  box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    background: #0a5071;
+    justify-content: space-between;
+    position: fixed;
+    align-items: center;
+    padding: 15px 5px;
+    top: 0;
+    width: 100%;
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+.logo {
+  cursor: pointer;
+  
+  margin-left: 5%;
+  margin-right: 0;
+
+ 
+}
+
+.cta {
+  order: 2;
+}
+.nav-link {
+  list-style: none;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 0;
+  
+}
+.nav-link li {
+  display: inline-block;
+  padding: 0px 40px;
+  
+}
+.nav-link li:nth-child(1) {
+  padding: 0px 20px 0 0;
+}
+.nav-link li a {
+  transition: all 0.3s ease 0s;
+  color: white;
+  text-decoration: none;
+  
+}
+.nav-link li a:hover {
+  color: #0088a9;
+}
+button {
+  padding: 9px 11px;
+  background-color: #00043b;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  border: 2px solid white;
+  color: white;
+  
+}
+
+button:hover {
+  background-color:  rgba(169, 163, 0, 0.5);;
+}
+
+.search {
+  width: 10%;
+  margin-left: 0;
+  padding-left: 0;
+  margin-right: 8%;
+}

@@ -1,0 +1,154 @@
+
+@media all and (max-width:500px) {
+  
+}
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500');
+* {
+  font-family: "Montserrat", sans-serif;
+  /* background: black; */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.body {
+  background: black;
+}
+
+iframe {
+    border: 8px solid rgb(150, 148, 148);
+    border-style:inset;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    display: block;
+}
+
+
+nav {
+    display: flex;
+    background: #0a5071;
+    justify-content: space-between;
+    position: fixed;
+    align-items: center;
+    padding: 15px 5px;
+    top: 0;
+    width: 100%;
+   
+   
+}
+.logo {
+  cursor: pointer;
+  
+  margin-left: 5%;
+  margin-right: 0;
+
+ 
+}
+
+.cta {
+  order: 2;
+}
+.nav-link {
+  list-style: none;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 0;
+  
+}
+.nav-link li {
+  display: inline-block;
+  padding: 0px 40px;
+  
+}
+.nav-link li:nth-child(1) {
+  padding: 0px 20px 0 0;
+}
+.nav-link li a {
+  transition: all 0.3s ease 0s;
+  color: white;
+  text-decoration: none;
+  
+}
+.nav-link li a:hover {
+  color: #0088a9;
+}
+button {
+  padding: 9px 11px;
+  background-color: #00043b;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  border: 2px solid white;
+  color: white;
+  
+}
+
+button:hover {
+  background-color:  rgba(169, 163, 0, 0.5);;
+}
+.laptop {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  
+}
+#title {
+ 
+  font-size: 4rem;
+  text-align: center;
+  font-family: sans-serif;
+  color: #ffffff;
+  padding-top: 110px;
+  
+}
+
+.search {
+  width: 10%;
+  margin-left: 0;
+  padding-left: 0;
+  margin-right: 8%;
+}
+.emoji {
+  width: 50px;
+}
+.par {
+  color: rgba(255, 255, 255, 0.792);
+  width: 63%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  text-align: center;
+ 
+  padding: 30px 30px 0 30px;
+  /* border-radius: 30px; */
+  /* box-shadow: 0 0 40px 50px rgba(255, 255, 255, 0.116); */         
+}
+.h3-vid1 {
+  color: rgb(252, 243, 185);
+  font-size: 250%;
+  font-family:sans-serif;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 30px;
+  
+}
+
+.h3-vid2 {
+  color: rgb(252, 243, 185);
+  font-size: 250%;
+  font-family:sans-serif;
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+
+.dec {
+  text-decoration: none;
+}
+
+
