@@ -1,4 +1,12 @@
+@media all and (max-width:768px) {
+  .search {
+    display: none;
+  }
 
+  .logo {
+    display: none;
+  }
+}
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat:500');
 
@@ -56,20 +64,23 @@ nav {
   order: 2;
 }
 .nav-link {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
   list-style: none;
   margin-left: auto;
   margin-right: auto;
   padding-right: 0;
-  
+  margin: 0;
+  padding: 20px;
 }
 .nav-link li {
   display: inline-block;
-  padding: 0px 40px;
-  
+  text-align: center;
+  padding: 0;
 }
-.nav-link li:nth-child(1) {
-  padding: 0px 20px 0 0;
-}
+
 .nav-link li a {
   transition: all 0.3s ease 0s;
   color: white;

@@ -1,3 +1,13 @@
+@media all and (max-width:768px) {
+  .search {
+    display: none;
+  }
+
+  .logo {
+    display: none;
+  }
+}
+
 body {
    background: url(https://preppykitchen.com/wp-content/uploads/2021/04/Milkshake-Recipe-Card.jpg); 
    background-repeat: no-repeat;
@@ -69,16 +79,19 @@ nav {
   order: 2;
 }
 .nav-link {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
   list-style: none;
   margin-left: auto;
   margin-right: auto;
   padding-right: 0;
-  
 }
 .nav-link li {
   display: inline-block;
-  padding: 0px 40px;
-  
+  text-align: center;
+  padding: 0;
 }
 .nav-link li:nth-child(1) {
   padding: 0px 20px 0 0;

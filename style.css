@@ -1,6 +1,20 @@
 
-@media all and (max-width:500px) {
-  
+@media all and (max-width:768px) {
+  .search {
+    display: none;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  .laptop {
+    width:70%;    
+  }
+
+  .worship {
+    width: 90%;
+  }
 }
 
 
@@ -15,54 +29,57 @@
 }
 .body {
   background: black;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 iframe {
-    border: 8px solid rgb(150, 148, 148);
-    border-style:inset;
-    border-radius: 10px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 0;
-    display: block;
+  position: relative;
+  border: 8px solid rgb(150, 148, 148);
+  border-style:inset;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  display: block;
 }
-
 
 nav {
-    display: flex;
-    background: #0a5071;
-    justify-content: space-between;
-    position: fixed;
-    align-items: center;
-    padding: 15px 5px;
-    top: 0;
-    width: 100%;
-   
-   
+  display: flex;
+  background: #0a5071;
+  justify-content: space-between;
+  position: fixed;
+  align-items: center;
+  padding: 15px 5px;
+  top: 0;
+  width: 100%;  
 }
+
 .logo {
   cursor: pointer;
-  
   margin-left: 5%;
   margin-right: 0;
-
- 
 }
 
 .cta {
   order: 2;
 }
+
 .nav-link {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
   list-style: none;
   margin-left: auto;
   margin-right: auto;
   padding-right: 0;
-  
 }
 .nav-link li {
   display: inline-block;
-  padding: 0px 40px;
-  
+  text-align: center;
+  padding: 0;
 }
 .nav-link li:nth-child(1) {
   padding: 0px 20px 0 0;
@@ -130,17 +147,16 @@ button:hover {
 }
 .h3-vid1 {
   color: rgb(252, 243, 185);
-  font-size: 250%;
+  font-size: 200%;
   font-family:sans-serif;
   text-align: center;
   margin-top: 100px;
   margin-bottom: 30px;
-  
 }
 
 .h3-vid2 {
   color: rgb(252, 243, 185);
-  font-size: 250%;
+  font-size: 200%;
   font-family:sans-serif;
   text-align: center;
   margin-top: 60px;
@@ -151,4 +167,14 @@ button:hover {
   text-decoration: none;
 }
 
+#boss {
+  display: block;
+  margin: 0 auto;
+  width: 120%;
+}
 
+.div-iframe {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
